@@ -89,7 +89,7 @@
           	<label for="exampleFormControlSelect1">Password:</label>
              <input type="password" class="form-control" name="password" placeholder="Password" required="">
           </div>
-          <p>If you have account <a href="login.php">Login</a></p>
+          <p>If you have account <a href="index.php">Login</a></p>
           <input type="submit" class="btn btn-warning btn btn-block" name="submit" value="Sign Up">  
         </form>
       </div>
