@@ -31,7 +31,7 @@
 	                  VALUES('$fullname','$username','$role','$email','$password')";
 	          $result = mysqli_query($con, $query);
 	      if ($result == true) {
-	          header("Location:login.php");
+	          header("Location:index.php");
 	      }else{
 	          $errorMsg  = "You are not Registred. Please Try again";
 	      }
